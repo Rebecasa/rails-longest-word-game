@@ -1,0 +1,38 @@
+h1{
+  margin-bottom: 60px;
+}
+li{
+  display: inline;
+  background-color:#4194d6;
+  color:white;
+  font-size: 32px;
+  padding: 10px 15px;
+  border:1px solid #1976d2;
+  margin: 0 10px;
+  justify-content: space-around;
+}
+
+ .container{
+  text-align: center;
+ }
+ .form-input{
+      width: 247px;
+ }
+ form{
+  margin-top: 70px;
+ }
+ a{
+  background-color:#4194d6;
+  color:white;
+  font-size: 20px;
+  padding: 10px 15px;
+  border:1px solid #1976d2;
+  margin: 30px 10px;
+  box-shadow: 1px 1px 1px dimgray;
+  border-radius: 3px;
+  text-decoration: none;
+  &:hover{
+    background-color: #1976d2;
+   box-shadow: 1px 1px 1px gray;
+  }
+ }
